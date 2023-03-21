@@ -1,0 +1,19 @@
+frist create a database and ec2 instance with same vpc 
+change inbound rules of security group to mysql auora
+and connnect the ec2 with database
+connect the instance 
+and do following commands:
+	>sudo su (to change to root user)
+	>apt update
+	>apt install mysql-client (for installing mqsql)
+	>mysql --version (for checkinng mqsql status)
+	>mysql -h (end pointlink) -p 3306 -u admin -p
+	>type passowrd of rds database
+now sql will be launched,by using some basic sql command we will create a table
+	>create database nagendra;
+	>use Nagendra;
+	>create table student (id INT NOT NULL AUTO_INCREMENT,Name VARCHAR(50),Branch VARCHAR(10),PRIMARY KEY (id));
+	>insert into student (name,branch)values('swamy','mech'),('nagendra','mec');
+	>select * from student;
+
+	

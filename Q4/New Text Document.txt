@@ -1,0 +1,7 @@
+frist clone a reacjs apllication file into local repo
+we need build thw bulid file in application
+so open cmd inisde the application file
+and type commands:    npm i
+                      npm run build
+now create a s3 bucket and upload the application files.
+now go to permissons and enable the static web hosting

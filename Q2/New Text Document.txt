@@ -1,0 +1,11 @@
+create an ec2 instance (ubuntu) and edit the inbound rules of sg to (allocate port 3000)
+add monitoring to instance
+connect the instance
+do following commands:
+   >sudo apt update
+   >git clone git repo link(lo clone the reacjs application files)
+   >cd js/ (to change dictory reactjs folder)
+   >npm run install
+   >npm i
+   >npm start
+now the server will start

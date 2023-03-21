@@ -1,0 +1,27 @@
+open ubuntu 
+clone the nodejs application in ubuntu 
+change the directory to nodels files
+and create deploy.sh,checkstatus.sh,test.sh ny using commads
+	>touch deploy.sh
+	>touch checkstatus.sh
+	>touch test.sh
+and write code in deploy.sh and checkstatus.sh
+change the permissins of deploy.sh and checkstatus.sh to exucutive mode by command
+	>chmod +x deploy.sh
+	>chmod +x checkstatus.sh
+>crontab -e
+>check the server is running or not by commad
+	>cat checkstatuslog.txt
+
+jenkins:
+
+clone the java application files to your local repo and push to your remote git repo
+open jenkins with your port
+and go manage plugins and install maven intrigation and pipeline maven intigration
+and to global tool configuration and add git and maven configurtions
+and select new item  > pipeline >
+bulid some triggers 
+write the pipeline script
+and save apply
+and click bulid now
+now see the output if it is running smootly no issue,if it is not running go to console output and obersve the where the erroe rises
